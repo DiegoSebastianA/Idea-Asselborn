@@ -35,7 +35,11 @@ header {
     margin-left: 30%;
 }
 
-
+.header-div:hover {
+    width: 28%; 
+    height: 40% ;
+    transform: scale(1.2);
+    } 
 
 .subs {
     background-color: rgba(128, 128, 128, 0.986);
@@ -57,7 +61,13 @@ header {
     background-image: repeating-linear-gradient(45deg, #9bd3db6b, rgb(155 211 219) 100px);
 }
 
+.titulo-page:hover { 
+    transform: scale(1.2);
+    font-size: 45px;
+    box-shadow: 0 0 20px 0  gray;
+    background-image:  repeating-linear-gradient(45deg, #9bd3dbf6, rgba(155, 211, 219, 0.507) 100px);
 
+} 
 
 
 /* --------------------------------------------------------------- */
@@ -111,9 +121,7 @@ section {
     white-space: pre-line;
     border-radius: 10px;
     border: solid 1px;
-    
-    
-}
+    }
 
 .blocke-02 { 
     grid-area: blocke-02;
@@ -143,10 +151,20 @@ section {
         text-align: center;
         align-items: center;
         padding: 3%;
-        
-        
+        background-image: linear-gradient(to bottom,rgb(162 233 231),rgb(84 239 214) );
+        border: solid 1px;        
+}
+#articulos:hover{
+    background-color: rgb(84 239 214);
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px rgba(138, 137, 137, 0.719);
 }
 
+.blocke-03:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px rgba(138, 137, 137, 0.719);
+    background-image: linear-gradient(to bottom,rgb(84 239 214) ,rgb(162 233 231));
+} 
 
 
 
